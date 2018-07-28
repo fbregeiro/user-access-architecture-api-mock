@@ -1,0 +1,51 @@
+{
+  "is_success" : true,
+  "operation_message" : "Login perfomed successfully",
+  "token" : "163984e2-e2ce-415d-8ce2-66cab5e014f1",
+  "user" : {
+    "id" : 1,
+    "full_name" : "Freddie Bregeiro",
+    "document_number" : "40.755.683-7",
+    "email" : "fbregeiro@gmail.com",
+    "password" : "123456",
+    "profile_id" : 1,
+    "profile" : {
+      "description" : "Administrator",
+      "can_create" : true,
+      "can_edit" : true,
+      "is_system_protected" : false,
+      "is_active" : true
+    },
+    "date_created" : "2018-07-10T18:25:43.511Z",
+    "is_active" : true
+  },
+  "user_access" : {
+    "section_name" : "Administrativo",
+    "icon" : "admin.png",
+    "section_menus" : [
+      {
+        "menu_name" : "Usuários",
+        "icon" : "users.png",
+        "route" : "admin/users",
+        "sub_menus" : [
+          {
+            "sub_menu_name" : "Gerenciar",
+            "icon" : "users.png",
+            "route" : "admin/users/manage"
+          },
+          {
+            "sub_menu_name" : "Criar usuário",
+            "icon" : "new_user.png",
+            "route" : "admin/users/create"
+          }
+        ]
+      },
+      {
+        "menu_name" : "Perfis",
+        "icon" : "roles.png",
+        "route" : "admin/roles",
+        "sub_menus" : []
+      }
+    ]
+  }
+}
