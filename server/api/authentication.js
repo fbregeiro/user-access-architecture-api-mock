@@ -11,6 +11,22 @@ module.exports = SetupEndpoint({
                 method: 'POST',
                 response: '/response-files/iLoginResponse.json'
             }]
+        },
+        {
+            params: '/reset-password',
+            requests: [{
+                method: 'POST',
+                response: {},
+                statusCode: 200
+            }]
+        },
+        {
+            params: '/new-password',
+            requests: [{
+                method: 'PUT',
+                response: {},
+                statusCode: 200
+            }]
         }
     ]
 });

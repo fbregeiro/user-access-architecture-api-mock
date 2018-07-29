@@ -1,0 +1,36 @@
+[
+  {
+    "id" : 1,
+    "full_name" : "Freddie Bregeiro",
+    "document_number" : "40.755.683-7",
+    "email" : "fbregeiro@gmail.com",
+    "password" : "123456",
+    "profile_id" : 1,
+    "profile" : {
+      "description" : "Administrator",
+      "can_create" : true,
+      "can_edit" : true,
+      "is_system_protected" : false,
+      "is_active" : true
+    },
+    "date_created" : "2018-07-10T18:25:43.511Z",
+    "is_active" : true
+  },
+  {
+    "id" : 2,
+    "full_name" : "Leandro Amaral Ferreira",
+    "document_number" : "40.755.683-7",
+    "email" : "leandro.winp@gmail.com",
+    "password" : "123456",
+    "profile_id" : 2,
+    "profile" : {
+      "description" : "Gerente",
+      "can_create" : false,
+      "can_edit" : true,
+      "is_system_protected" : false,
+      "is_active" : true
+    },
+    "date_created" : "2018-07-14T14:22:31.114Z",
+    "is_active" : true
+  }
+]

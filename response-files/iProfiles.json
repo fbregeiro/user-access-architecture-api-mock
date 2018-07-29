@@ -1,0 +1,22 @@
+[{
+  "description" : "Administrador",
+  "can_create" : true,
+  "can_edit" : true,
+  "is_system_protected" : false,
+  "is_active" : true
+},
+{
+  "description" : "Gerente",
+  "can_create" : false,
+  "can_edit" : true,
+  "is_system_protected" : false,
+  "is_active" : true
+},
+{
+  "description" : "Operador",
+  "can_create" : false,
+  "can_edit" : false,
+  "is_system_protected" : false,
+  "is_active" : true
+}
+]

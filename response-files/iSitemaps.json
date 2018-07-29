@@ -1,0 +1,14 @@
+{
+  "id" : 1,
+  "section_id" : 1,
+  "section" : {
+    "id" : 1,
+    "description" : "Administrativo",
+    "icon" : "admin.png"
+  },
+  "title" : "Administrador",
+  "icon" : "admin.png",
+  "route" : "/admin",
+  "parent_id" : null,
+  "parent" : null
+}
