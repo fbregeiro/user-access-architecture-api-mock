@@ -19,33 +19,115 @@
     "date_created" : "2018-07-10T18:25:43.511Z",
     "is_active" : true
   },
-  "user_access" : {
-    "section_name" : "Administrativo",
-    "icon" : "admin.png",
-    "section_menus" : [
-      {
-        "menu_name" : "Usuários",
-        "icon" : "users.png",
-        "route" : "admin/users",
-        "sub_menus" : [
-          {
-            "sub_menu_name" : "Gerenciar",
-            "icon" : "users.png",
-            "route" : "admin/users/manage"
-          },
-          {
-            "sub_menu_name" : "Criar usuário",
-            "icon" : "new_user.png",
-            "route" : "admin/users/create"
-          }
-        ]
-      },
-      {
-        "menu_name" : "Perfis",
-        "icon" : "roles.png",
-        "route" : "admin/roles",
-        "sub_menus" : []
-      }
-    ]
-  }
+  "user_access" : [
+    {
+      "section_name" : "Administrativo",
+      "icon" : "admin.png",
+      "section_menus" : [
+        {
+          "menu_name" : "Usuários",
+          "icon" : "users.png",
+          "route" : "/admin/users",
+          "sub_menus" : [
+            {
+              "sub_menu_name" : "Gerenciar",
+              "icon" : "users.png",
+              "route" : "/admin/users"
+            },
+            {
+              "sub_menu_name" : "Criar usuário",
+              "icon" : "new_user.png",
+              "route" : "/admin/users/create"
+            }
+          ]
+        },
+        {
+          "menu_name" : "Perfis",
+          "icon" : "roles.png",
+          "route" : "/admin/roles",
+          "sub_menus" : []
+        }
+      ]
+    },
+    {
+      "section_name" : "Sessão 1",
+      "icon" : "sessao1.png",
+      "section_menus" : [
+        {
+          "menu_name" : "Menu A",
+          "icon" : "menuA.png",
+          "route" : "/sessao1/menuA",
+          "sub_menus" : [
+            {
+              "sub_menu_name" : "Sub-Menu A1",
+              "icon" : "submenuA1.png",
+              "route" : "/sessao1/menuA/submenuA1"
+            },
+            {
+              "sub_menu_name" : "Sub-Menu A2",
+              "icon" : "submenuA2.png",
+              "route" : "/sessao1/menuA/submenuA2"
+            }
+          ]
+        },
+        {
+          "menu_name" : "Menu B",
+          "icon" : "menuB.png",
+          "route" : "/sessao1/menuB",
+          "sub_menus" : [
+            {
+              "sub_menu_name" : "Sub-Menu B1",
+              "icon" : "submenuB.png",
+              "route" : "/sessao1/menuB/submenub1"
+            },
+            {
+              "sub_menu_name" : "Sub-Menu B2",
+              "icon" : "submenuB.png",
+              "route" : "/sessao1/menuB/submenuB2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section_name" : "Sessão 2",
+      "icon" : "sessao2.png",
+      "section_menus" : [
+        {
+          "menu_name" : "Menu c",
+          "icon" : "menuc.png",
+          "route" : "/sessao2/menuC",
+          "sub_menus" : [
+            {
+              "sub_menu_name" : "Sub-Menu C1",
+              "icon" : "submenuC1.png",
+              "route" : "/sessao2/menuC/submenuC1"
+            },
+            {
+              "sub_menu_name" : "Sub-Menu C2",
+              "icon" : "submenuC2.png",
+              "route" : "/sessao2/menuC/submenuC2"
+            }
+          ]
+        },
+        {
+          "menu_name" : "Menu D",
+          "icon" : "menuD.png",
+          "route" : "/sessao2/menud",
+          "sub_menus" : [
+            {
+              "sub_menu_name" : "Sub-Menu D1",
+              "icon" : "submenuD1.png",
+              "route" : "/sessao2/menuD/submenuD1"
+            },
+            {
+              "sub_menu_name" : "Sub-Menu D2",
+              "icon" : "submenuD2.png",
+              "route" : "/sessao2/menuD/submenuD2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
