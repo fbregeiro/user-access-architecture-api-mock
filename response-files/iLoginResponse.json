@@ -27,24 +27,13 @@
         {
           "menu_name" : "Usuários",
           "icon" : "users.png",
-          "route" : "/admin/users",
-          "sub_menus" : [
-            {
-              "sub_menu_name" : "Gerenciar",
-              "icon" : "users.png",
-              "route" : "/admin/users"
-            },
-            {
-              "sub_menu_name" : "Criar usuário",
-              "icon" : "new_user.png",
-              "route" : "/admin/users/create"
-            }
-          ]
+          "route" : "/users",
+          "sub_menus" : []
         },
         {
           "menu_name" : "Perfis",
           "icon" : "roles.png",
-          "route" : "/admin/roles",
+          "route" : "/profiles",
           "sub_menus" : []
         }
       ]
@@ -94,8 +83,8 @@
       "icon" : "sessao2.png",
       "section_menus" : [
         {
-          "menu_name" : "Menu c",
-          "icon" : "menuc.png",
+          "menu_name" : "Menu C",
+          "icon" : "menuC.png",
           "route" : "/sessao2/menuC",
           "sub_menus" : [
             {

@@ -7,6 +7,7 @@
     "password" : "123456",
     "profile_id" : 1,
     "profile" : {
+      "id" : 1,
       "description" : "Administrator",
       "can_create" : true,
       "can_edit" : true,
@@ -24,6 +25,7 @@
     "password" : "123456",
     "profile_id" : 2,
     "profile" : {
+      "id" : 2,
       "description" : "Gerente",
       "can_create" : false,
       "can_edit" : true,
