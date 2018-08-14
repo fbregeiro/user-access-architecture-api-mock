@@ -1,4 +1,4 @@
-{
+[{
   "id" : 1,
   "section_id" : 1,
   "section" : {
@@ -11,4 +11,32 @@
   "route" : "/admin",
   "parent_id" : null,
   "parent" : null
-}
+},
+{
+  "id" : 2,
+  "section_id" : 2,
+  "section" : {
+    "id" : 2,
+    "description" : "Gerente",
+    "icon" : "gerente.png"
+  },
+  "title" : "Gerente",
+  "icon" : "gerente.png",
+  "route" : "/manager",
+  "parent_id" : null,
+  "parent" : null
+},
+{
+  "id" : 3,
+  "section_id" : 3,
+  "section" : {
+    "id" : 3,
+    "description" : "Operator",
+    "icon" : "operator.png"
+  },
+  "title" : "Operator",
+  "icon" : "operator.png",
+  "route" : "/operator",
+  "parent_id" : null,
+  "parent" : null
+}]

@@ -4,5 +4,6 @@
   "can_create" : true,
   "can_edit" : true,
   "is_system_protected" : false,
-  "is_active" : true
+  "is_active" : true,
+  "sitemap_ids": [1, 2]
 }
