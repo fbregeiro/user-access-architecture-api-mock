@@ -9,6 +9,7 @@
     "email" : "fbregeiro@gmail.com",
     "password" : "123456",
     "profile_id" : 1,
+    "photo_url" : "http://icons.iconarchive.com/icons/paomedia/small-n-flat/512/user-male-icon.png",
     "profile" : {
       "description" : "Administrator",
       "can_create" : true,
