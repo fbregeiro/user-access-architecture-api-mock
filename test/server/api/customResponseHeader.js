@@ -65,11 +65,11 @@ lab.experiment('Custom response header', () => {
 
         const env = Object.assign({}, process.env);
 
-        env.CUSTOM_HEADER_NAME = 'Authorization';
+        env.CUSTOM_HEADER_NAME = 'token';
         env.CUSTOM_HEADER_VALUE = 'Bearer eyJhbGciOiJIUzUxMiJ9';
 
         Code.expect(GetCustomResponseHeader(env)).to.equal({
-            name: 'Authorization',
+            name: 'token',
             value: 'Bearer eyJhbGciOiJIUzUxMiJ9'
         });
 
