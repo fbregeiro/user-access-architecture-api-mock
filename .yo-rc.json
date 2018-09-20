@@ -2,7 +2,7 @@
   "generator-http-fake-backend": {
     "promptValues": {
       "serverPort": "3001",
-      "apiPrefix": "/api"
+      "apiPrefix": ""
     }
   }
 }
